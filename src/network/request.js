@@ -22,7 +22,7 @@ export function request(config) {
 }
 export function request2(config) {
   const instance = axios.create({
-    baseURL: 'http://152.136.185.210:8000/api/z8',
+    baseURL: 'http://152.136.185.210:7878/api/hy66',
     timeout: 10000
   })
   //请求拦截器，登录加载等
